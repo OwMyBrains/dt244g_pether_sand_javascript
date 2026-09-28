@@ -16,3 +16,6 @@ console.log(food[4]);
 
 food.push("Kycklingwok");
 console.log(food);
+
+food.shift();
+console.log(food);
