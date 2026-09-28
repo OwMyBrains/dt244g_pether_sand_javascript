@@ -9,6 +9,10 @@ let quantity = 3;
 
 /* uträkning */
 let exklMoms = price * quantity;
-console.log(exklMoms);
 let inklMoms = price * quantity + exklMoms * 0.25;
-console.log(inklMoms);
+
+/* det som skrivs ut */
+console.log(`Pris: ${price} kr`);
+console.log(`Antal: ${quantity} st`);
+console.log(`Totalt: ${exklMoms} kr`);
+console.log(`Totalt inklusive moms: ${inklMoms} kr`);
