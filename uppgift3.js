@@ -5,3 +5,11 @@ Pether Sand 2026 */
 
 /* variable */
 let age = 64;
+/* meddelande för vilken åldersgrupp man ingår i */
+if (age <= 17) {
+  console.log("Barn");
+} else if (age >= 65) {
+  console.log("Pensionär");
+} else {
+  console.log("Vuxen");
+}
