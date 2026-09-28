@@ -10,3 +10,6 @@ let food = [
   "Pasta Carbonara",
   "Hamburgare med klyftpotatis",
 ];
+console.log(food);
+console.log(food[0]);
+console.log(food[4]);
