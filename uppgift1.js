@@ -6,5 +6,6 @@ let efternamn = "Sand";
 let age = 43;
 let student = true;
 
-console.log(fornamn + " " + efternamn);
 console.log(`${fornamn} ${efternamn}`);
+console.log(`Ålder: ${age}`);
+console.log(`Student: ${student}`);
