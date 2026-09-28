@@ -7,9 +7,15 @@ for (var i = 1; i <= 20; i++) {
   console.log(i);
 } */
 
-/*  Skriver ut ojämna nummer */
+/*  Skriver ut ojämna nummer
 for (var i = 1; i <= 20; i++) {
   if (i % 2 === 1) {
+    console.log(i);
+  }
+} */
+/*  Skriver ut jämna nummer */
+for (var i = 1; i <= 20; i++) {
+  if (i % 2 === 0) {
     console.log(i);
   }
 }
