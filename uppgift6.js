@@ -3,10 +3,13 @@
 Pether Sand 2026
  */
 
+//Funktion för uträkningen
 function calculateArea(a, b) {
   return a * b;
 }
 
+//Värden i uträkningen
 let area = calculateArea(100, 5);
 
-console.log(area);
+//Utskriften
+console.log(`Arean är ${area}`);
