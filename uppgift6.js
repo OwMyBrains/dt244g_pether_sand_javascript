@@ -9,7 +9,7 @@ function calculateArea(a, b) {
 }
 
 //Värden i uträkningen
-let area = calculateArea(100, 5);
+let area = calculateArea(20, 2);
 
 //Utskriften
 console.log(`Arean är ${area}`);
