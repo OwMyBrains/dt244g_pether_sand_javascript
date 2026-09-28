@@ -1,5 +1,18 @@
 "use strict";
-/* Lösning till uppgift 1. Program som skriver ut namn, ålder och om personen är student eller ej 
+/* Uppgift 1
+Skapa variabler som representerar information om en person.
+Programmet ska innehålla:
+en textsträng med ett förnamn,
+en textsträng med ett efternamn,
+en ålder,
+en boolean som anger om personen är student.
+Skriv därefter ut informationen till skärmen på ett tydligt sätt.
+Exempel:
+Malin Larsson
+Ålder: 30
+Student: false
+Använd variabelnamn som tydligt beskriver vilken information variablerna innehåller.
+
 Pether Sand 2026 */
 
 /* variabler */
