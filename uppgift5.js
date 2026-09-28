@@ -13,3 +13,6 @@ let food = [
 console.log(food);
 console.log(food[0]);
 console.log(food[4]);
+
+food.push("Kycklingwok");
+console.log(food);
