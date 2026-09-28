@@ -20,4 +20,6 @@ function calculateSum(number) {
   }
   return sum;
 }
-console.log(calculateSum([10, 20, 43, 123, 19, 90, 80, 56]));
+console.log(
+  `Summan av arrayen är ${calculateSum([10, 20, 43, 123, 19, 90, 80, 56])}`,
+);
