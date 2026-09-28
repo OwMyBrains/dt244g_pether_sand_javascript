@@ -4,7 +4,7 @@
 Pether Sand 2026 */
 
 /* variable */
-let age = 64;
+let age = 43;
 /* meddelande för vilken åldersgrupp man ingår i */
 if (age <= 17) {
   console.log("Barn");
@@ -13,3 +13,4 @@ if (age <= 17) {
 } else {
   console.log("Vuxen");
 }
+/* Har testat olika åldrar och det har fungerat som det ska */
