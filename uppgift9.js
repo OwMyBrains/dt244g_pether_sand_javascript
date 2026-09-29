@@ -52,9 +52,11 @@ const persons = [
   },
 ];
 
+//Tom array som forEach lagrar information i
 function getPersons(persons) {
   const person = [];
 
+  //forEach loop som går igenom arrayen och skriver ut information beroende på ålder
   persons.forEach((person) => {
     if (person.age < 18) {
       console.log(`${person.name} bor i ${person.city} och är inte myndig`);
