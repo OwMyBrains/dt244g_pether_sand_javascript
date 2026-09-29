@@ -1,17 +1,6 @@
 "use strict";
 /* Uppgift 6
-Skapa en funktion som räknar ut arean av en rektangel.
-Funktionen ska:
-heta calculateArea
-ta emot bredd och höjd som parametrar
-beräkna arean
-returnera resultatet
-Anropa därefter funktionen minst tre gånger med olika värden och skriv ut resultaten.
-Exempel:
-Arean är 20
-Arean är 42
-Arean är 100
-Viktigt: Funktionen ska använda ett return-värde. Skriv alltså inte ut resultatet direkt inne i funktionen.
+Program som räknar ut arean av en rektangel. 
 Pether Sand 2026
  */
 
