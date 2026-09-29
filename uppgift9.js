@@ -33,21 +33,25 @@ Du bestämmer själv vilka personer och värden som ska finnas i arrayen.
 Målet med uppgiften är inte att skapa ett avancerat program, utan att visa att du kan kombinera flera grundläggande programmeringskoncept i samma lösning.
 Pether Sand 2026 */
 
-conts person = [
-    {
-        name: "Måns",
-        age: 11,
-        city: "Östersund"
-    }
-      {
-        name: "Elin",
-        age: 38,
-        city: "Östersund"
-    }
-      {
-        name: "Vigge",
-        age: 40,
-        city: "Åre"
-    }
+//array
+const person = [
+  {
+    name: "Måns",
+    age: 11,
+    city: "Östersund",
+  },
+  {
+    name: "Elin",
+    age: 38,
+    city: "Östersund",
+  },
+  {
+    name: "Vigge",
+    age: 40,
+    city: "Åre",
+  },
 ];
 
+for (let i = 0; i < person.length; i++) {
+  console.log(person[i]);
+}
