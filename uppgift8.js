@@ -11,3 +11,9 @@ Titel: The Hobbit
 Författare: J.R.R. Tolkien
 Utgivningsår: 1937
 Pether Sand 2026 */
+
+function books(title, author, year) {
+  this.title = title;
+  this.author = author;
+  this.year = year;
+}
