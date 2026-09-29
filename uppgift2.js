@@ -14,15 +14,15 @@ Använd variabler och matematiska operatorer för att genomföra beräkningarna.
 
 Pether Sand 2026 */
 
-/* pris och antal */
+// pris och antal
 let price = 100;
 let quantity = 3;
 
-/* uträkning */
+// uträkning
 let exklMoms = price * quantity;
 let inklMoms = price * quantity + exklMoms * 0.25;
 
-/* det som skrivs ut */
+// det som skrivs ut
 console.log(`Pris: ${price} kr`);
 console.log(`Antal: ${quantity} st`);
 console.log(`Totalt: ${exklMoms} kr`);

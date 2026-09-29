@@ -9,9 +9,10 @@ under 18 år: "Barn"
 Testa programmet med flera olika åldrar så att du ser att samtliga grenar fungerar.
 Pether Sand 2026 */
 
-/* variable */
+// variable
 let age = 43;
-/* meddelande för vilken åldersgrupp man ingår i */
+
+// meddelande för vilken åldersgrupp man ingår i
 if (age <= 17) {
   console.log("Barn");
 } else if (age >= 65) {
@@ -19,4 +20,4 @@ if (age <= 17) {
 } else {
   console.log("Vuxen");
 }
-/* Har testat olika åldrar och det har fungerat som det ska */
+// Har testat olika åldrar och det har fungerat som det ska

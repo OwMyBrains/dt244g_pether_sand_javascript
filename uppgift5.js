@@ -14,6 +14,7 @@ Använd lämpliga array-metoder för att genomföra förändringarna.
 Exempel på metoder som kan vara användbara är push() och shift().
 Pether Sand 2026 */
 
+//Array med maträtter
 let food = [
   "Pizza",
   "Palak Paneer",
@@ -21,12 +22,16 @@ let food = [
   "Pasta Carbonara",
   "Hamburgare med klyftpotatis",
 ];
+
+//Skriver ut alla, första och sedan sista maträtten
 console.log(food);
 console.log(food[0]);
 console.log(food[4]);
 
+//lägger till en maträtt och skriver ut alla
 food.push("Kycklingwok");
 console.log(food);
 
+//Tar bort en maträtt och skriver ut alla en sista gånt
 food.shift();
 console.log(food);

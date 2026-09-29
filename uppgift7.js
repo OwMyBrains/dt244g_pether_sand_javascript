@@ -11,15 +11,17 @@ Använd en loop för att gå igenom arrayens innehåll.
 Tänk på att funktionen ska fungera även om arrayen innehåller andra värden, eller olika många värden. 
 Pether Sand 2026*/
 
-//Array with numbers
-
+//Funktion för att loopa igenom arrayen som skrivs senare
 function calculateSum(number) {
   var sum = 0;
   for (var i = 0; i < number.length; i++) {
     sum += number[i];
   }
+  //returnerar summan
   return sum;
 }
+
+//Utskriften inklusive arrayen som ska räknas ut.
 console.log(
   `Summan av arrayen är ${calculateSum([10, 20, 43, 123, 19, 90, 80, 56])}`,
 );

@@ -24,6 +24,7 @@ function calculateArea(a, b) {
 let area1 = calculateArea(60, 1.5);
 let area2 = calculateArea(100, 4);
 let area3 = calculateArea(20, 3);
+
 //Utskriften;
 console.log(`Arean är ${area1}`);
 console.log(`Arean är ${area2}`);
