@@ -34,7 +34,7 @@ Målet med uppgiften är inte att skapa ett avancerat program, utan att visa att
 Pether Sand 2026 */
 
 //array
-const person = [
+const persons = [
   {
     name: "Måns",
     age: 11,
@@ -52,6 +52,16 @@ const person = [
   },
 ];
 
-for (let i = 0; i < person.length; i++) {
-  console.log(person[i]);
+function getPersons(persons) {
+  const person = [];
+
+  persons.forEach((person) => {
+    if (person.age < 18) {
+      console.log(`${person.name} bor i ${person.city} och är inte myndig`);
+    } else {
+      console.log(`${person.name} bor i ${person.city} och är myndig`);
+    }
+  });
+  return persons;
 }
+const result = getPersons(persons);
